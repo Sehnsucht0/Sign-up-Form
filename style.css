@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf") format("opentype");
+}
+
+.container {
+    width: 75vw;
+    height: 100vh;
+    margin: 0 auto;
+    /*background-color: gray;*/
+    position: relative;
+}
+
+.main-image {
+    height: 100vh;
+    width: 25vw;
+}
+
+.image-footer {
+    position: absolute;
+    bottom: 10px;
+    left: 6.7vw;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.image-logo {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    display: inline-block;
+    width: 25vw;
+    height: 22vh;
+}
+
+.logo-img {
+    height: 20vh;
+    position: absolute;
+    top: 11vh;
+    left: 5vw;
+}
+
+.logo-text {
+    position: absolute;
+    top: 15vh;
+    left: 12vw;
+    color: white;
+    font-family: "Norse Bold";
+    font-size: 12vh;
+}
+
+.form-container {
+    position: absolute;
+    left: 25vw;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+    width: 50vw;
+}
+
+p, pre {
+    margin: 0.2em 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.last-line {
+    margin-top: 40px;
+}
+
+
+.call-to-action {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-size: 25px;
+    height: 30vh;
+    width: calc (50vw- 60px);
+}
+
+.form {
+    height: 30vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: rgb(20, 20, 20);
+    font-weight: 600;
+    width: calc (50vw- 60px);
+    padding-left: 60px;
+    padding-top: 30px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    font-size: 10px;
+    letter-spacing: .25em;
+    margin-bottom: 3px;
+}
+
+li span {
+    display: inline-block;
+    margin-right: 130px;
+    margin-bottom: 20px;
+}
