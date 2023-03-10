@@ -9,7 +9,6 @@
     width: 75vw;
     height: 100vh;
     margin: 0 auto;
-    /*background-color: gray;*/
     position: relative;
 }
 
@@ -95,6 +94,7 @@ p, pre {
     padding-left: 60px;
     padding-top: 30px;
     background-color: white;
+    position: relative;
 }
 
 ul {
@@ -116,4 +116,63 @@ li span {
     display: inline-block;
     margin-right: 130px;
     margin-bottom: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 34px;
+    border: none;
+    border: solid 1px #e5e7eb;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1px blue;
+    box-shadow: 0px 0px 5px rgb(70, 70, 70);
+}
+
+.error {
+    border: solid 1px red;
+}
+
+.subscribe {
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: calc (50vw- 60px);
+    height: calc(40vh - 110px);
+    font-size: 20px;
+}
+
+.create-account {
+    background-color: #596d48;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: 800;
+    font-size: 16px;
+    border: solid 1px rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.log-in {
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.log-in a {
+    color: #596d48;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.pass-match {
+    position: absolute;
+    margin-top: 5px;
+    font-size: 10px;
+    color: red;
 }

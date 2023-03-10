@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./javascript.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -25,39 +26,44 @@
                         <li>
                             <span>
                                 <label for="first-name">FIRST NAME</label>
-                                <input type="text" name="firstname" id="first-name">
+                                <input type="text" name="firstname" id="first-name" required>
                             </span>
 
                             <span>
                                 <label for="last-name">LAST NAME</label>
-                                <input type="text" name="lastname" id="last-name">
+                                <input type="text" name="lastname" id="last-name" required>
                             </span>
                         </li>
 
                         <li>
                             <span>
                                 <label for="e-mail">EMAIL</label>
-                                <input type="email" name="email" id="e-mail">
+                                <input type="email" name="email" id="e-mail" required>
                             </span>
 
                             <span>
                                 <label for="phone">PHONE NUMBER</label>
-                                <input type="tel" name="phone" id="phone">
+                                <input type="tel" name="phone" id="phone" required>
                             </span>
                         </li>
 
                         <li>
                             <span>
                                 <label for="password">PASSWORD</label>
-                                <input type="password" name="password" id="password">
+                                <input class="pass" type="password" name="password" id="password" required>
+                                <div class="pass-match"></div>
                             </span>
 
                             <span>
                                 <label for="confirm-password">CONFIRM PASSWORD</label>
-                                <input type="password" name="confirm-password" id="confirm-password">
+                                <input class="confirm-pass" type="password" name="confirm-password" id="confirm-password" required>
                             </span>
                         </li>
                     </ul>
+                    <div class="subscribe">
+                        <button type="submit" class="create-account">Create Account</button>
+                        <div class="log-in">Already have an account? <a href="#">Log in</a></div>
+                    </div>
                 </form>
             </div>
         </div>
